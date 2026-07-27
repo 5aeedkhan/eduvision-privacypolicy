@@ -101,15 +101,16 @@
         </ul>
 
         <h2>Local Storage</h2>
-        <p>EduVision stores the following files locally on your device:</p>
+        <p>EduVision stores the following data locally on your device:</p>
         <ul>
+            <li><strong>User profile cache</strong> — Your name, email, role, and academic info are cached in a local database (Hive) so the app works even without internet. This is stored in the app's private internal storage and is not accessible by other apps.</li>
             <li><strong>Board images</strong> — Saved in the app's private internal storage (not accessible by other apps)</li>
             <li><strong>Audio recordings</strong> — Saved in the app's private internal storage (not accessible by other apps)</li>
             <li><strong>QR code images</strong> — Temporarily cached for sharing, cleared by the system</li>
             <li><strong>PDF attendance reports</strong> — Temporarily cached for sharing, cleared by the system</li>
             <li><strong>PPTX lecture files</strong> — Saved to the public Downloads/EduVision folder so you can access them from other apps</li>
         </ul>
-        <p>Files in the app's private storage are removed when you uninstall the app. PPTX files in the Downloads folder remain after uninstallation.</p>
+        <p>Files in the app's private storage and the local database are removed when you uninstall the app. PPTX files in the Downloads folder remain after uninstallation.</p>
 
         <h2>Data Storage and Security</h2>
         <p>All cloud data is stored securely using Google Firebase services:</p>
@@ -121,19 +122,21 @@
         </ul>
 
         <h2>Third-Party Services</h2>
-        <p>EduVision uses the following third-party service:</p>
+        <p>EduVision uses the following third-party services:</p>
         <ul>
             <li><strong>Google Firebase</strong> — Provides authentication, database storage, and cloud infrastructure. Firebase processes your email, name, and app data to provide these services. Google's privacy policy is available at <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+            <li><strong>Google Fonts</strong> — The app downloads the Poppins font from Google's servers for display. Google Fonts may receive your device's IP address when fetching fonts. See <a href="https://policies.google.com/privacy">Google's privacy policy</a> for details.</li>
         </ul>
         <p>We do not use any advertising SDKs, analytics trackers, or third-party data brokers.</p>
 
         <h2>Data Sharing</h2>
-        <p>We do <strong>not</strong> share your personal data with any third parties. Your data is only accessible to:</p>
+        <p>We do <strong>not</strong> share your personal data with any third parties for advertising or commercial purposes. Your data is only accessible to:</p>
         <ul>
             <li>You (your own data)</li>
             <li>Teachers in your class (class-related content)</li>
             <li>Admins (for account management)</li>
         </ul>
+        <p>The app allows you to share QR codes and PDF reports via the Android share sheet. When you use this feature, the selected file is sent directly to the app you choose (e.g., WhatsApp, Email). We do not control or have access to what you share or with whom.</p>
 
         <h2>Permissions Used</h2>
         <ul>

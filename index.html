@@ -100,11 +100,22 @@
             <li>To facilitate communication between teachers and students</li>
         </ul>
 
+        <h2>Local Storage</h2>
+        <p>EduVision stores the following files locally on your device:</p>
+        <ul>
+            <li><strong>Board images</strong> — Saved in the app's private internal storage (not accessible by other apps)</li>
+            <li><strong>Audio recordings</strong> — Saved in the app's private internal storage (not accessible by other apps)</li>
+            <li><strong>QR code images</strong> — Temporarily cached for sharing, cleared by the system</li>
+            <li><strong>PDF attendance reports</strong> — Temporarily cached for sharing, cleared by the system</li>
+            <li><strong>PPTX lecture files</strong> — Saved to the public Downloads/EduVision folder so you can access them from other apps</li>
+        </ul>
+        <p>Files in the app's private storage are removed when you uninstall the app. PPTX files in the Downloads folder remain after uninstallation.</p>
+
         <h2>Data Storage and Security</h2>
-        <p>All data is stored securely using Google Firebase services:</p>
+        <p>All cloud data is stored securely using Google Firebase services:</p>
         <ul>
             <li><strong>Firebase Authentication</strong> — Handles user authentication with industry-standard security</li>
-            <li><strong>Cloud Firestore</strong> — Stores app data with encryption at rest</li>
+            <li><strong>Cloud Firestore</strong> — Stores app data (user profiles, lecture metadata, attendance records, questions, announcements) with encryption at rest</li>
             <li>All data is transmitted over HTTPS/TLS encryption</li>
             <li>Passwords are hashed by Firebase Authentication (we never see raw passwords)</li>
         </ul>

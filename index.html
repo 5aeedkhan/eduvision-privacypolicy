@@ -215,7 +215,7 @@
             <img src="https://raw.githubusercontent.com/5aeedkhan/eduvision-privacypolicy/main/nbg.png" alt="EduVision Logo" class="hero-logo">
             <h1>EduVision</h1>
             <p class="subtitle">Smart Classroom Automation &amp; Lecture Digitization</p>
-            <p class="last-updated">Privacy Policy &mdash; Last updated: August 3, 2026</p>
+            <p class="last-updated">Privacy Policy &mdash; Last updated: August 3, 2026 (Updated: Google Sign-In)</p>
         </div>
     </div>
 
@@ -361,7 +361,7 @@
                 </tr>
                 <tr>
                     <td><strong>Firebase Authentication</strong></td>
-                    <td>Email, password (hashed), user ID</td>
+                    <td>Email, password (hashed), user ID, Google OAuth tokens (if using Google Sign-In)</td>
                     <td>In transit (HTTPS/TLS) + at rest</td>
                 </tr>
                 <tr>
@@ -386,6 +386,7 @@
             <p>EduVision uses the following third-party services as data processors:</p>
             <ul>
                 <li><strong>Google Firebase</strong> — Provides authentication, database storage (Firestore), and cloud infrastructure. Firebase processes your email, name, user ID, and app data to provide these services. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy &rarr;</a></li>
+                <li><strong>Google Sign-In</strong> — Provides optional OAuth-based authentication. When you choose "Continue with Google", Google shares your email address, display name, and profile photo URL with the app for account creation and sign-in. The app uses this data only to create or verify your Firebase Authentication account. No Google data is shared with any other third party. You can revoke access at any time from your <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account permissions page</a>. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy &rarr;</a></li>
                 <li><strong>Cloudflare R2</strong> — Provides cloud object storage for generated PPTX lecture files. When a teacher generates a PPTX, the file is uploaded to R2 so students can download it. Cloudflare processes the PPTX file data (which contains board images and embedded audio) to provide this storage service. <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener">Cloudflare's privacy policy &rarr;</a></li>
                 <li><strong>Google Fonts</strong> — The app downloads the Poppins font from Google's servers for UI display. Google Fonts may receive your device's IP address when fetching fonts. <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's privacy policy &rarr;</a></li>
             </ul>
